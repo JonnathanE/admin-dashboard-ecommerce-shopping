@@ -1,5 +1,9 @@
 # ADMIN DASHBOARD IN REACT
-The project is an admin dashboard created in react
+The project is an admin dashboard created in react.
+
+The project is built in React. The API and client interface are at:
+- API: https://github.com/JonnathanE/api-ecommerce-shopping.git
+- CLIENT: https://github.com/JonnathanE/ecommerce-shopping.git
 
 ## Authors
 
@@ -18,6 +22,23 @@ The project is an admin dashboard created in react
 
 **Server:** Node v14.18.0
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`REACT_APP_API_URL`=(the backend server url: serverURL/api)
+
+`APIKEY`=(key of Firebase)
+
+`AUTHDOMAIN`=(key of Firebase)
+
+`PROJECTID`=(key of Firebase)
+
+`STORAGEBUCKET`=(key of Firebase)
+
+`MESSAGINGSENDERId`=(key of Firebase)
+
+`APPID`=(key of Firebase)
 
 ## Run Locally
 
@@ -36,7 +57,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn add
+  yarn
 ```
 
 Start the server
@@ -47,15 +68,13 @@ Start the server
 
 ## Screenshots
 
-![home](https://user-images.githubusercontent.com/33469147/152615233-269f8289-9633-43be-afd9-0148fa4349d2.png)
+![admin](https://user-images.githubusercontent.com/33469147/153265911-5415349a-a0d4-4ef7-939d-fa5ea8d4fdb4.png)
 
-![userList](https://user-images.githubusercontent.com/33469147/152615316-0749d7b2-88b2-4dd7-b9b7-dd3093e88ccc.png)
+![products](https://user-images.githubusercontent.com/33469147/153266094-9eaa6485-d415-400f-b873-93e81538be5a.png)
 
-![user](https://user-images.githubusercontent.com/33469147/152615361-0b42ea86-c3eb-4179-8564-81991f44adbe.png)
+![product](https://user-images.githubusercontent.com/33469147/153266204-9f11a20d-3481-4523-8547-c7a365d25d9f.png)
 
-![newUser](https://user-images.githubusercontent.com/33469147/152615464-62a735d1-1da6-4c16-9504-e8d117dddf8e.png)
-
-![product](https://user-images.githubusercontent.com/33469147/152615399-f308ad14-1a18-472c-a2c0-4783b62ed317.png)
+![newProduct](https://user-images.githubusercontent.com/33469147/153266312-539027d3-ff75-4472-bdff-2be6f84979a1.png)
 
 
 ## Available Scripts
